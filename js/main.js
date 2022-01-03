@@ -7,6 +7,8 @@
  
  // Detect Enter key and fire a function that searches the query when the key is released
  searchInput.addEventListener("keyup", function(event){
+
+    // used key because keyCode and which are being deprecated
      if (event.key === "Enter") {
          searchClick();
      }

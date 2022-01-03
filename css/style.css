@@ -47,21 +47,22 @@ h1 {
 }
 
 .img-container {
-    padding: 12px 12px 15px;
+    padding: 15px;
     background: #fff;
     margin: 15px;
 }
 
 /* ---Images--- */
 .img-size {
-    width: 350px;
-    height: 350px;
+    width: 275px;
+    height: 275px;
 
     /* allow image to crop to fit the available space while maintaining the aspect ratio */
     object-fit: cover;
 }
 
-.full-icon{
+.full-icon {
+    display: block;
     width: 25px;
     height: 25px;
     transition: all 0.2s ease;
